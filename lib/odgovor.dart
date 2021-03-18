@@ -10,6 +10,7 @@ class Odgovor extends StatelessWidget {
         //stiliziranje dugmeta
         width: double.infinity,
         child: RaisedButton(
+          textColor: Colors.white,
           color: Colors.blue[200],
           child: Text("Odgovor 1"),
           onPressed: selectHandler,

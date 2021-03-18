@@ -10,10 +10,10 @@ class Pitanje extends StatelessWidget {
       width: double.infinity,
       margin: EdgeInsets.all(25),
       padding: EdgeInsets.all(25),
-      color: Colors.blue[400],
+      color: Colors.blue[200],
       child: Text(
         textPitanja,
-        style: TextStyle(fontSize: 28),
+        style: TextStyle(fontSize: 28, color: Colors.white),
         textAlign: TextAlign.center,
       ),
     );
