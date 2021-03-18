@@ -32,7 +32,7 @@ class _MojaAppState extends State<MojaApp> {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-              title: Text('Moja prva aplikacija'),
+              title: Text('Moja prva aplikacija GitHub verzija'),
             ),
             body: Column(
               children: [
